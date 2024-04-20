@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/login
+Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMSIsImlkIjoiNjFhMDNiMDdhNTdjNjI5YTRmZWIyNWYzIiwiaWF0IjoxNjM3ODkyMDg2fQ.fcvy3eyudID1W___kp9J8ygix0VpmzA3KeQUABfCJIk
+
+{
+    "username":"username2",
+    "password":"password3"
+}
