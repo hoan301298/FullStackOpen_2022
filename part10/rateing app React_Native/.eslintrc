@@ -1,0 +1,44 @@
+{
+    "plugins": [ 
+        "flow", 
+        "jsx", 
+        "estree", 
+        "asyncFunctions", 
+        "asyncGenerators", 
+        "classConstructorCall", 
+        "classProperties", 
+        "decorators", 
+        "doExpressions", 
+        "exponentiationOperator", 
+        "exportExtensions", 
+        "functionBind", 
+        "functionSent", 
+        "objectRestSpread", 
+        "trailingFunctionCommas", 
+        "dynamicImport", 
+        "numericSeparator", 
+        "optionalChaining", 
+        "importMeta", 
+        "classPrivateProperties", 
+        "bigInt", 
+        "optionalCatchBinding",
+        "jest"
+      ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
+    "parser": "@babel/eslint-parser",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "semi": "error"
+    },
+    "parserOptions": {
+        "requireConfigFile": false
+    }
+}
